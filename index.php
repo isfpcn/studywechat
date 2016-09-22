@@ -6,7 +6,10 @@
 //define your token
 define("TOKEN", "weixin");
 $wechatObj = new wechatCallbackapiTest();
-$wechatObj->valid();
+//验证token
+//$wechatObj->valid();
+
+$wechatObj->responseMsg();
 
 class wechatCallbackapiTest
 {
